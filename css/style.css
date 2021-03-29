@@ -2,26 +2,26 @@
 *::before,
 *::after {
 	box-sizing: border-box;
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 }
 body {
-	background: #1E88E5;
+	background: #5cbe70;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 94vh;
 	color:#fff;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: sans-serif;
 }
 .game {
-	border:3px solid #fff;
+	border: 19px solid #fffcf7a6;
 	width: 100%;
-	max-width: 700px;
-	padding:50px;
-	border-radius: 3px;
+	max-width: 698px;
+	padding: 25px;
+	border-radius: 0px;
 }
 .game h1 {
 	font-size: 30px;
@@ -29,7 +29,7 @@ body {
 }
 .counter-block {
 	width: 200px;
-	border:2px solid #000;
+	border: 2px solid #00000036;
 	margin:20px auto;
 	padding: 10px;
 	display: flex;
@@ -44,11 +44,17 @@ body {
 	width: 50px;
 	text-align: center;
 }
+
+.me {
+	font-style : italic;
+	font-weight : bold;
+}
+
 .count::before {
 	content:"";
 	display: block;
 	padding:3px 8px;
-	background: #1E88E5;
+	background: #5cbe70;
 	color: #fff;
 	font-size: 14px;
 	position: absolute;
@@ -56,11 +62,11 @@ body {
 }
 .count-user::before {
 	content:"Игрок";
-	left:-5px;
+	left: -3px;
 }
 .count-comp::before {
-	content:"Комп";
-	right:-5px;
+	content: "ПК";
+	right: 7px;
 }
 .figure-container {
 	display: flex;
@@ -129,12 +135,12 @@ body {
 	margin:0 8px;
 	cursor:pointer;
 	border:none;
-	border-radius:30px;
+	border-radius: 30px;
 	color:#fff;
 	text-transform: uppercase;
 	padding:10px 20px;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 21px;
 	box-shadow: 2px 3px 0 #0c4e00;
 	transition:.2s;
 	outline: none;
@@ -145,7 +151,7 @@ body {
 	box-shadow: 1px 1px 0 #0c4e00;
 }
 .play {
-	background: linear-gradient(180deg, #00cb48, #126e01);
+	background: linear-gradient(180deg, #b046ff, #9637d8);
 }
 
 
