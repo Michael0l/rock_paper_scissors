@@ -34,7 +34,7 @@ window.addEventListener('load', function () {
 			compStep = compFields[rand].dataset.field;
 			compFields[rand].classList.add('active');
 			winner();
-		},500);
+		},1500);
 	}
 
 	function winner() { 
