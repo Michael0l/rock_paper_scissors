@@ -5,6 +5,28 @@
 	margin: 0px;
 	padding: 0;
 }
+
+a {
+  color: #fff !important;
+}
+
+
+
+.me1 {
+animation:3s blinker linear infinite;
+color: #6e6ec7;
+font-size:18px;
+font-weight:bold;
+}
+.blink_text a {color:#f00;}
+@keyframes blinker {
+0% { opacity: 1.0; }
+50% { opacity: 0.0; }
+100% { opacity: 1.0; }
+}
+
+
+
 body {
 	background: #5cbe70;
 	display: flex;
